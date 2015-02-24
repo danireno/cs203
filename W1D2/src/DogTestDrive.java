@@ -6,7 +6,7 @@ public class DogTestDrive {
 		d.size=40;
 		d.name="tarzan";
 		d.bark();
-		System.out.println("my first dog name " +d.name);
+		System.out.println("my first dog name is " +d.name);
 		System.out.println("his size was"+ d.size);
 		
 		
