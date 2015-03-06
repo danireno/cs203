@@ -16,7 +16,8 @@ public class Truck extends Automobile {
 		this.hasTailGate = hasTailGate;
 	}
 	public void Accelarate(){
-		setSpeedInstance(7);
+		this.Speed+=7;
+		
 		
 	}
 

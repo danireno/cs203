@@ -13,6 +13,7 @@ import java.util.ArrayList;
 				
 				num.add(rand);				
 			}
+			System.out.println(num);
 			int sum = 0;
 			for (int i = 0; i < num.size();i++){
 				sum+=num.get(i);

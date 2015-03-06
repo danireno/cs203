@@ -21,6 +21,7 @@ public class AutomobileTestDrive {
 		auto.add(truck1);
 		auto.add(car2);
 		auto.add(truck2);
+		System.out.println(car1.getModel());
 		
 		
 		for(Automobile vehicule : auto){
@@ -28,7 +29,10 @@ public class AutomobileTestDrive {
 			vehicule.Accelarate();
 			vehicule.Accelarate();
 			vehicule.Accelarate();
+			//vehicule.getModel();
+			vehicule.brake();
 			System.out.println(vehicule.getSpeedInstance());
+			//System.out.println(vehicule.getModel());
 
 			
 			

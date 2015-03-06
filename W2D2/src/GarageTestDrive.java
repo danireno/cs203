@@ -11,6 +11,8 @@ public class GarageTestDrive {
 		i2.setName("merciedise");
 		Item i3= new Item();
 		i3.setName("Fiat");
+		Item i4=new Item();
+	    c1.setModel("dani");
 		
 		
 		g1.store(c1);

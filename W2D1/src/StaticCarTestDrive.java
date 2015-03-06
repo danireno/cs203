@@ -11,8 +11,8 @@ public class StaticCarTestDrive {
 	        StaticCar.setX(two, -3);
 	        StaticCar.setY(two, -3);
 	        
-	        StaticCar.setName(one, "Car One");
-	        StaticCar.setName(two, "Car Two");
+	        StaticCar.setName(one, "Car 1");
+	        StaticCar.setName(two, "Car 2");
 	        
 	        StaticCar.moveDown(one, 1);
 	        StaticCar.moveRight(one, 1);
@@ -24,9 +24,9 @@ public class StaticCarTestDrive {
 	        StaticCar.moveLeft(two, 1);
 	        StaticCar.moveUp(two, 1);
 	        
-	        StaticCar.setLocation(one, "Car One is at X: " 
+	        StaticCar.setLocation(one, "Car 1 is at X: " 
 	                + StaticCar.getX(one) + ", Y: " + StaticCar.getY(one));
-	        StaticCar.setLocation(two,  "Car Two is at X: " 
+	        StaticCar.setLocation(two,  "Car 2 is at X: " 
 	                + StaticCar.getX(two) + ", Y: " + StaticCar.getY(two));
 	        
 	        System.out.println(StaticCar.getLocation(one));

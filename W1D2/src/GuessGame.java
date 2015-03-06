@@ -11,22 +11,25 @@ public class GuessGame {
 		int GuessP2=0;
 		int GuessP3=0;
 		
+		
+		
 		boolean P1isRight=false;
 		boolean P2isRight=false;
 		boolean P3isRight=false;
 		
-		int targetNumber=(int) (Math.random()*10);
+		int targetNumber=(int) (Math.random()*3);
 		System.out.println("I'm thinking of a number 0 and 9...");
-		while(true){
+		while(true)
+		{
 			System.out.println("Number to guess is "+ targetNumber);
 			p1.Guess();
 			p2.Guess();
 			p3.Guess();
-			GuessP1=p1.number;
+			GuessP1=p1.number1;
 			System.out.println("player one guessed" + GuessP1);
-			GuessP2=p2.number;
+			GuessP2=p2.number2;
 			System.out.println("player one guessed" + GuessP2);
-			GuessP3=p3.number;
+			GuessP3=p3.number3;
 			System.out.println("player one guessed" + GuessP3);
 			if(GuessP1==targetNumber){
 				P1isRight=true;
@@ -48,7 +51,7 @@ public class GuessGame {
 				System.out.println("players will have to try again.");
 				
 			}
-			
+	
 		}
 		
 	}

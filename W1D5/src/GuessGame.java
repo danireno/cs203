@@ -18,10 +18,10 @@ public class GuessGame {
 		boolean P3isRight=false;
 		
 		int targetNumber=(int) (Math.random()*3);
-		System.out.println("I'm thinking of a number 0 and 9...");
+		System.out.println("I'm thinking of a number 0 and 3...");
 		while(true)
 		{
-			System.out.println("Number to guess is "+ targetNumber);
+			//System.out.println("Number to guess is "+ targetNumber);
 			p1.Guess();
 			//p2.Guess();
 			//p3.Guess();

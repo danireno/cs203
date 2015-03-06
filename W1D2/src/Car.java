@@ -2,6 +2,8 @@
 public class Car {
 	private int x=0;
 	private int y=0;
+	//int $dan=1;
+	
 	public int getX() {
 		return x;
 	}
@@ -16,9 +18,6 @@ public class Car {
 	}
 	public void MoveUp(){
 		y+=1;
-
-
-
 	}
 	public void MoveDown(){
 		y-=1;

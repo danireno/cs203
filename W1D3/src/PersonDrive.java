@@ -7,6 +7,8 @@ public class PersonDrive {
 		P1.LastName="Don";
 		for(int i=0;i<PO.length;i++){
 			PO[i]=P1;
+		
+			System.out.println("this is the new : "+ " " + PO[i].FirstName +" "+ PO[i].LastName);
 			
 		}
 	     PO[0].LastName="Smith";
